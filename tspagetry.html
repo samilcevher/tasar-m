@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AnaSayfaasda</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script> -->
+    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <!-- <script src="node_modules/popper.js/dist/popper.min.js"></script> -->
+
+    <style>
+    
+    body{
+        background-color: #960018;
+    }
+    div{
+        background-color: white;
+    }
+    h5{
+        color: white;
+    }
+    .baslik{
+        color: white;
+    }
+    .carousel-caption d-none d-md-block{
+        border: 1px solid;
+        border-radius: 2px;
+    }
+    .carousel-caption{
+        background-color: transparent;
+    }
+
+    .list-group-item-action:hover{
+        background: #007bff;
+        color:white;
+
+
+    }
+   
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">ŞAMİLCEVHER.COM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Ana Sayfa
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hakkımızda</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Haberler
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.fotomac.com.tr/trabzonspor" target="blank">Transfer Haberleri</a>
+                        <a class="dropdown-item" href="https://www.google.com/search?q=d%C3%BCnya+kupas%C4%B1&rlz=1C1SQJL_trTR841TR841&oq=d%C3%BCnya+kupas%C4%B1&aqs=chrome..69i57j0l5.4454j0j4&sourceid=chrome&ie=UTF-8#sie=lg;/m/0j26kc6;2;/m/01kglk;mt;fp;1;;" target="blank">Dünya Kupası</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="http://www.tbf.org.tr/" target="blankk">Basketbol</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">İletişim</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" id="textara" type="search" placeholder="Ara" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" id="btnara"type="submit">Sayfada Ara</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <!-- header -->
+        <!-- .row>.col-md-12>h2>lorem3^hr -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <h2>Lorem, ipsum dolor.</h2>
+                <hr> -->
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" style="margin-top:25px;">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 img-fluid" src="https://i.milimaj.com/i/milliyet/90/0x0/5d1f608755427f0d145ce0c3.jpg/" alt="First slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 >First Slide</h5>
+                                        <p class="baslik" >2010-2011 ŞAMPİYONU TRABZONSPOR.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 img-fluid" src="https://i.ytimg.com/vi/RudGMWeamdM/maxresdefault.jpg" alt="Second slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Second Slide</h5>
+                                        <p class="baslik">Lorem ipsum dolor.</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100 img-fluid" src="https://foto.sondakika.com/haber/2019/07/05/uefa-dan-trabzonspor-a-mujdeli-haber-12215146_603_amp.jpg" alt="Third slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Third Slide</h5>
+                                        <p class="baslik">Lorem ipsum sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                </div>
+                    
+            </div>
+        </div>
+
+        <!-- content -->
+        <!-- .row>.col-md-3+.col-md-6+.col-md-3 -->
+        <div class="row text-center">
+
+            <!-- left side -->
+            <div class="col-md-3">
+                <h4 class="text-warning" style="margin-top:15px;" >ŞAMİLCEVHER KRAL İNSAN.</h4>
+                <hr>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        Cras justo odio
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                    <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                    <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+                </div>
+                <p>
+                    <br>
+                    <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facere saepe vel!
+                </p>
+            </div>
+
+            <!-- center side -->
+            <div class="col-md-6">
+                <h4 class="text-success" style="margin-top:15px;">
+                    2010-2011 ŞAMPİYONU TRABZONSPOR
+                </h4>
+                <hr>
+                <img class="img-fluid img-thumbnail" src="https://www.61saat.com/images/upload/DTHgINyWsAEWTop.jpg" alt="">
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt blanditiis necessitatibus quae
+                    voluptate accusamus
+                    amet distinctio magnam reprehenderit dolores at! Fugit, laboriosam velit animi fugiat dolore non
+                    perspiciatis
+                    commodi quasi.</p>
+                <p>Unde corporis repellat fuga dolorem, impedit modi assumenda ipsum numquam saepe ut placeat, neque,
+                    illum
+                    temporibus eaque laudantium. Commodi perferendis tempora obcaecati quis doloribus minima, ab aliquam
+                    expedita reiciendis voluptatem.</p>
+                <p>Ipsam laboriosam ducimus tempore impedit sit ullam aperiam, corrupti, maxime delectus, eaque
+                    reprehenderit
+                    odio incidunt atque? Delectus sapiente impedit dolores debitis, sunt odio corrupti ex saepe
+                    corporis,
+                    praesentium suscipit laborum?</p>
+            </div>
+
+            <!-- right side -->
+            <div class="col-md-3">
+                <h4 class="text-info" style="margin-top:15px;">DİK OYNA!!</h4>
+                <hr>
+                <div class="card" style="width: 16 rem;">
+                    <img class="card-img-top" src="https://i.milimaj.com/i/milliyet/90/0x0/5d1f608755427f0d145ce0c3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <p>
+                    <br>
+                    <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facere saepe vel!
+                </p>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <!-- .row>.col-md-12>lorem5 -->
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+                <p class="text-center">
+                    <b>Lorem ipsum dolor sit amet. &copy;</b>
+                </p>
+            </div>
+        </div>
+
+    </div>
+   
+  
+
+</body>
+
+</html>
